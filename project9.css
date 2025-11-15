@@ -1,0 +1,55 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+body{
+    height:100vh;
+    width:100vw;
+    background-color: silver;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#maindiv{
+    height:80%;
+    width:60%;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#divin{
+    height:40%;
+    width:100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   gap:10px;
+    border-radius: 5px;
+  
+    
+}
+#inputone,#buttonone,#selectone{
+     height:20%;
+    width:90%;
+    background-color: rgb(220, 222, 222);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+   
+    color: black;
+    
+}
+#buttonone{
+    text-align: center;
+}

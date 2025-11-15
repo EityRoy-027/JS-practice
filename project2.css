@@ -1,0 +1,38 @@
+*{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+}
+ body{
+    width:100vw;
+    height:100vh;
+ }
+ #externaldiv{
+    width:100%;
+    height:100%;
+    background-color: rgb(230, 234, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+ #divone,#divtwo,#divthree{
+    width:70%;
+    padding: 15px;
+    background-color: white;
+    gap:10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+  
+ }
+
+ #pone,#ptwo,#pthree{
+    color:black;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left:10px;
+    
+ }
