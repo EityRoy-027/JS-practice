@@ -1,0 +1,108 @@
+*{
+    margin: 0 0 0 0;
+    padding:0 0 0 0;
+}
+
+body{
+height:100vh;
+width: 100vw;
+background-color:rgb(139, 137, 137);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#main{
+    height:70%;
+    width:70%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#big{
+    height:60%;
+    width:60%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+}
+#html,#css,#js{
+    width: 90%;
+    height:50%;
+    position: relative;
+    
+    
+}
+#np{
+     position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+#ap,#cs,#as,#jsp,#jsa{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    display: none;
+    
+}
+#ap,#cs,#jsa{
+    display: none;
+
+}
+
+#html{
+    height:60%;
+    width: 80%;
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+#css,#js{
+    height:60%;
+    width: 80%;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+ 
+}
+
+#buttons{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#pre,#fli,#next{
+    height:40px;
+    width:90px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border: none;
+    background-color: black;
+}
+#empty{
+    width: 100%;
+    height:20px;
+    background-color: rgb(157, 157, 156);
+    border-radius: 5px;
+}
+#emptycol{
+    height:100%;
+    width: 33.33%;
+    background-color: rgb(53, 165, 5);
+    border-radius: 5px;
+
+}
+
