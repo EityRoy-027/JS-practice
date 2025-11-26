@@ -1,0 +1,93 @@
+*{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+}
+body{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(244, 244, 133);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+#main{
+     height:40%;
+    width:50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  
+}
+#sub{
+    height:40%;
+    width:80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 30px;
+}
+#divph{
+text-align: center;
+display: flex;
+flex-direction: column;
+gap:30px;
+}
+#pone{
+    font-size: 1rem;
+    color: rgb(70, 69, 69);
+}
+#buttons{
+    height:50%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 20px;
+  
+}
+#buttonone,#buttontwo,#buttonthree,#buttonfour{
+    height:40px;
+    width:100px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    
+}
+#buttonone{
+background-color: rgb(231, 216, 114);
+color: black;
+
+}
+#buttontwo{
+background-color:rgb(82, 208, 217);
+color:white;
+}
+#buttonthree{
+background-color: rgb(231, 101, 123);
+color:white;
+}
+#buttonfour{
+background-color:rgb(215, 243, 104);
+color: white;
+}
+
+#buttonone:hover{
+    transform:scale(1.1);
+}
+#buttontwo:hover{
+    transform:scale(1.1);
+}
+#buttonthree:hover{
+    transform:scale(1.1);
+}
+#buttonfour:hover{
+    transform:scale(1.1);
+}

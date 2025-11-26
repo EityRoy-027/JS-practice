@@ -1,0 +1,60 @@
+*{
+    margin:0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+body{
+    height:100vh;
+    width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#main{
+    height:60%;
+    width: 60%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#sub{
+    height:90%;
+    width: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:30px;
+}
+#divh{
+    text-align: center;
+}
+#emoji,#emojis{
+    /* height:80%;
+    width: 80%; */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap:20px;
+   font-size: 1.4rem;
+}
+
+#emoji1:hover{
+    transform: scale(1.9);
+}
+#emoji2:hover{
+    transform: scale(1.9);
+}
+#emoji3:hover{
+    transform: scale(1.9);
+}
+#emoji4:hover{
+    transform: scale(1.9);
+}
+#emoji5:hover{
+    transform: scale(1.9);
+}
+
