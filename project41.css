@@ -1,0 +1,86 @@
+*{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+
+}
+body{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    height:90%;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#sub{
+    height:90%;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+
+}
+#divph{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+#findp{
+    font-weight: medium;
+}
+#colp{
+    font-weight: bolder;
+}
+#rows{
+   
+    /* height:50%; */
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+
+
+}
+#firstrow,#secrow,#thirdrow,#fourrow{
+    display: flex;
+    gap: 15px;
+}
+
+#first1,#first2,#first3,#first4,#sec1,#sec2,#sec3,#sec4,#third1,#third2,#third3,#third4,#four1,#four2,#four3,#four4{
+    height:100px;
+    width:100px;
+    border-radius: 8px;
+    background-color: rgb(207, 206, 206);
+}
+
+#resetb{
+    height:50px;
+    width:130px;
+    background-color: rgb(37, 115, 216);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="project37.css">
+<body>
+<div id="main">
+    <div id="sub">
+
+        <div id="divh">
+            <h1>Pricing Calculator</h1>
+        </div>
+
+        <div id="inputs">
+
+            <p>Quantity:8</p>
+            <input type="range" min="0" max="300" value="0" id="quantity">
+
+            <p>Size/Level:4</p>
+            <input type="range" min="0" max="5" value="0" id="size">
+        </div>
+
+        <div id="checkbox">
+            <h3>Add-Ons:</h3>
+            <div id="check">
+
+            <div id="lev1">    
+           <input id="warrenty" type="checkbox" value="warrenty">
+        <label for="warrenty">Extra Warrenty($10)</label>   
+            </div>
+
+            <div id="lev2">  
+          <input id="gift" type="checkbox" value="gift">
+        <label for="gift">Gift Warraping($5)</label> 
+            </div>
+
+            <div id="lev3">
+          <input id="ship" type="checkbox" value="ship">
+        <label for="ship">Express Shipping($15)</label>  
+            </div>
+         
+        </div>
+
+        <div id="total">
+            <p id="pt">$<span id="spant">20</span></p>
+        </div>
+
+        </div>
+
+    </div>
+</div>    
+<script src="project37.js"></script>    
+</body>
+</html>

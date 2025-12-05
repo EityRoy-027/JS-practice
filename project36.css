@@ -1,0 +1,46 @@
+*{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+body{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-image: url('jungle.jpg');
+}
+#main{
+    height:90%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    justify-content: space-between;
+    
+}
+#sub{
+    height:40%;
+    width:40%;
+    display: flex;
+    flex-direction: column; 
+     justify-content: space-between;
+    /* align-items: center;  */
+}
+img{
+    height:90px;
+    width:90px;
+}
+#level{
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#input1{
+    width:80%;
+}
+

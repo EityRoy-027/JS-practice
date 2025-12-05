@@ -1,0 +1,82 @@
+*{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+}
+body{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#main{
+    height:80%;
+    width:50%;
+    display: flex;
+   
+}
+#sub{
+    height:100%;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#traffic{
+    height:60%;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(46, 46, 47);
+    border-radius: 20px;
+}
+#circle1,#circle2,#circle3{
+    
+    height:80px;
+    width:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(10, 10, 10);
+    padding: 5px;
+    transition: background 0.9s;
+
+}
+#buttons{
+    height:50%;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+   
+}
+#button1,#button2{
+    height:20%;
+    width:90%;
+   display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+   
+    
+    
+}
+#red,#yellow,#green,#start,#stop{
+    height:30px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    
+   
+}

@@ -1,0 +1,100 @@
+*{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+}
+body{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 239, 252);
+}
+#main{
+    height:90%;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sub{
+    height:100%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+#divh{
+    margin-bottom:80px;
+    font-size: 1.6em;
+}
+#box{
+   
+    height:100%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    gap:10px;
+
+}
+p{
+    font-size: 1.3rem;
+}
+#buttons{
+    
+    height:40%;
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+#buttonone{
+    height:40px;
+    width:80%;
+    background-color: rgb(13, 87, 225);
+    color: white;
+    text-align: center;
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 1rem;
+}
+#buttontwo{
+    height:40px;
+    width:100%;
+    background-color: rgb(210, 153, 30);
+    color: white;
+    text-align: center;
+    border:none;
+    border-radius: 5px; 
+    padding: 5px;
+    font-weight: 1rem;
+}
+#divh2{
+    font-size: 1.3em;
+   
+    
+}
+span{
+    color: rgb(150, 148, 148);
+}
+#empty{
+    width:100%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    overflow-y: auto;
+
+}
