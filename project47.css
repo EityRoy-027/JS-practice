@@ -1,0 +1,45 @@
+*{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+}
+body{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+     height:90%;
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sub{
+    height:90%;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    gap:20px;
+}
+#table{
+    height:80%;
+    width:100%;
+}
+#table1{
+    /* height:80%;
+    width:100%;
+    border-collapse: collapse; */
+    display: flex;
+    border-collapse: collapse;
+    
+}
+th,tr,td{
+   
+    width:500px;
+    height:40px;
+    border:1px solid gray;
+}

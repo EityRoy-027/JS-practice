@@ -1,0 +1,56 @@
+*{
+    margin: 0 0 0 0;
+    padding:0 0 0 0;
+}
+body{
+    height:100vh;
+    width:100vw;
+    
+}
+#main{
+    height:80%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#sub{
+    height:80%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    position:absolute;
+}
+ #firstq,#secq{
+    /* height:50%;
+    width:50%; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    border: none;
+}
+#secq{
+  
+    
+    gap:20px;
+}
+
+#ans1,#ans2{
+    width:40px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+#ans2{
+    margin-top:10px;
+}
+#time2{
+    display: flex;
+    gap:10px;
+}
+#secq{
+    display: none;
+}
