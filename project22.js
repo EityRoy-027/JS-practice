@@ -21,10 +21,6 @@ buttonone.addEventListener('click',function(){
     empty.style.flexDirection='row';
     empty.style.gap='10px';
     empty.appendChild(div1);
-
-
-
-
 })
 
 buttontwo.addEventListener('click',function(){

@@ -13,11 +13,12 @@ let paris=document.querySelector('#paris');
 let rome=document.querySelector('#rome');
 let dhaka=document.querySelector('#dhaka');
 let score=document.querySelector('#scoreh');
-
+let timeStart = 10;
 
 next.addEventListener('click',function(){
    secq.style.display='block';
    firstq.style.display='none'; 
+   timeStart = 10;
 })
 
 b8.addEventListener('click',function(){
@@ -46,22 +47,40 @@ dhaka.addEventListener('click',function(){
    spc.textContent=parseInt(spc.textContent);
 })
 
- let timeStart = 10;
+ 
  
  let timer= setInterval(function() {
     console.log(timeStart);
     timeStart = timeStart - 1;
     
-     if(timeStart<0){
+   //   if(timeStart<0){
       
-		 clearInterval(timer);
-     return; 
+	// 	 clearInterval(timer);
+   //     timer=null;
+   //   return; 
+   //   }
+     if(secq.style.display=='block'&&timeStart<0){
+      // timeStart=10;
+      console.log('hello');
+     clearInterval(timer);
+      timer=null;
+      timeStart=0;
      }
-     sp.textContent=timeStart;
-     sp2.textContent=timeStart;
-    
+   
+     if(timeStart<0){
+      secq.style.display='block';
+      firstq.style.display='none';
 
-}, 1000);
+    timeStart=10;
+     }
+     
+      sp.textContent=timeStart;
+     if(secq.style.display=='block'){
+      // timeStart=10;
+     sp2.textContent=timeStart;
+     }
+
+   }, 1000);
 
 
 

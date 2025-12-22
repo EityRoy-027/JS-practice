@@ -29,12 +29,11 @@ elementnine.addEventListener('click',function(){
     elementscre.textContent+='9';
 })
 elementplus.addEventListener('click',function(){
-    if(operator==''){
 
-    
+    if(operator==''){
    numberone=parseInt(elementscre.textContent);
+ }
  
-    }
     else{
         if(operator=='+'){
 numberone=numberone+parseInt(elementscre.textContent);
