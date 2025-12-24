@@ -1,0 +1,136 @@
+*{
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+}
+body{
+    height:100vh;
+    width:100vw;
+    
+    background-color: rgb(16, 0, 30);
+}
+#main{
+    height:100%;
+    width:100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap:20px;
+}
+
+#sub{
+    height:90%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  gap:30px;
+}
+#con{
+   height:100%;
+    width:18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    gap:15px;
+    border-radius: 20px;
+}
+#conh{
+    margin-top: 25px;
+}
+#score,#attend,#payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    height:30px;
+    width:190px;
+    border-radius: 5px;
+    background-color: rgb(43, 43, 43);
+    padding:15px;
+}
+#attend,#payment{
+    height:50px;
+}
+#unlock,#email,#certi{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    height:30px;
+    width:190px;
+    border-radius: 5px;
+    background-color: rgba(202, 44, 44, 0.375);
+    padding:15px;
+}
+#drop{
+    height:100%;
+    width:35%;
+    background-color: black;
+    border: 2px dotted white;
+    border-radius: 20px;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+}
+#pdrop{
+    margin-right:150px;
+}
+#pdrop{
+    margin-top: 40px;
+    margin-left:20px;
+}
+#preview{
+   height:100%;
+    width:18%;
+    display: flex;
+    flex-direction: column;
+     align-items: center; 
+    background-color: black;
+    gap:30px;
+    border-radius: 20px;
+    
+}
+
+#ruleh{
+    margin-top:25px;
+}
+#no{
+    height:auto;
+    width:150px;
+    background-color: rgb(22, 0, 41);
+    padding:10px;
+    border-radius: 5px;
+    display: flex;
+    font-size: 1.2em;
+}
+#run{
+    width:110px;
+    height:40px;
+    background-color: rgb(19, 122, 19);
+    border-radius: 5px;
+    padding:20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right:20px;
+}
+#emptyrule,#emptydrop{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}

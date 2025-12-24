@@ -1,0 +1,97 @@
+*{
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+}
+body{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(21, 21, 21);
+
+}
+#main{
+    height:100%;
+    width:100%;
+
+}
+#sub{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#task{
+    height:60%;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color:rgb(15, 3, 23);
+    border-radius: 20px;
+}
+#design,#code,#meet,#test{
+    width:90%;
+    height:50px;
+    border-radius: 10px;
+    background-color: rgb(48, 101, 180);
+    color: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   padding-left:10px;
+}
+
+#schedule{
+    height:60%;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: rgb(15, 3, 23);;
+    border-radius: 20px;
+}
+#morn,#after,#even{
+    width:90%;
+    height:auto;
+    border-radius: 10px;
+    background-color: rgb(100, 99, 99);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding:15px;
+    gap:10px;
+    
+}
+#mop,#afp,#evp{
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+}
+p{
+    color:white;
+    margin-left:10px;
+}
+#taskp,#schedup{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+#designslider,#codslider,#meetslider,#testslider{
+    width:80%;
+    height:10px;
+    border-radius: 5px;
+    background-color: silver;
+    display: none;
+    margin-top: 10px;
+}
+#designslide,#codslide,#meetslide,#testslide{
+    width:0%;
+    height:100%;
+    border-radius: 5px;
+    background-color:gold;
+}

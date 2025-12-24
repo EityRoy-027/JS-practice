@@ -1,0 +1,86 @@
+*{
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+}
+body{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 0, 27);
+}
+#main{
+   height:90%;
+   width:90%;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+#sub{
+   height:90%;
+   width:90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   gap:30px;
+}
+h1{
+    color:white;
+}
+#atcg{
+   width:30%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+}
+#a,#t,#c,#g{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#a{
+    background-color: red;
+}
+#t{
+    background-color: rgb(32, 161, 32);
+}
+#c{
+    background-color: rgb(39, 39, 217);
+}
+#g{
+    background-color: yellow;
+}
+
+#dna{
+   width:40%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+}
+#one,#two,#three,#four{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    border:2px dotted white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+p{
+    color:white;
+    font-size: 1.2em;
+}
